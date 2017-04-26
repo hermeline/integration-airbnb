@@ -1,0 +1,274 @@
+header{
+  display: inline;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+  background-color: #fff;
+}
+
+a{
+  color: #484848;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a:visited{
+   color:#484848;
+}
+
+a:hover{
+  padding-bottom: 0.5em;
+  border-bottom: solid 2px #484848;
+}
+
+#logo{
+  width: auto;
+}
+
+#nav
+{
+   margin:0;
+   padding:0;
+   width: 30%;
+   float:right;
+   margin-top:1.5em;
+}
+
+#nav li{
+   display:inline;
+   padding:0;
+   margin-left:30px;
+}
+
+#container{
+  width: 85%;
+  display:flex;
+  flex-wrap: wrap;
+  padding-left: 141px;
+}
+#bloc1{
+  margin-top:0.5em;
+  width: 60%;
+}
+h1{
+  color:#FF5A5F;
+  font-weight: bold;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /*font-weight: 300;*/
+}
+h2{
+  color:#484848;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.8px;
+  padding-bottom: 8px;
+  font-weight: 300;
+  margin-top:-40px;
+}
+#bloc2{
+  width: 100%;
+  margin-top: 30px;
+  border: solid 1px #dbdbdb;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px #dbdbdb;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#ou{
+  padding-left: 15px;
+}
+#ou, #quand{
+  border-right: solid 1px #dbdbdb;
+}
+#voy, #ou, #quand{
+  min-width: 30%;
+  padding-bottom:0;
+}
+
+#voy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#espacebtn{
+  margin-right: 10px;
+}
+#btn{
+  background-color: #FF5A5F;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  padding: 17px;
+  border-radius: 7px;
+}
+p{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #544850;
+}
+h4{
+  color:#767676;
+  font-family: arial;
+  font-size: 1.1em;
+  font-weight: 200;
+  margin-top: -3px;
+}
+
+#minimenu{
+  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 69px;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e4e4e4;
+  color: #008489;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: arial;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+#minimenu li{
+   display:inline;
+   padding:0;
+   margin-right: 20px;
+}
+#minimenu a:hover{
+  padding-bottom: 1em;
+  border-bottom: solid 2px #008489;
+}
+#un{
+  padding-bottom: 1em;
+  border-bottom: solid 2px #008489;
+  color: #008489
+}
+.reserv{
+  font-family: arial;
+  color: #544850;
+  font-size: 1.6em;
+  padding-top: 20px;
+  width: 100%;
+}
+
+#slide{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.photo{
+  max-width: 15%;
+  margin: 2px;
+}
+
+#slide p{
+  font-size: 1em;
+}
+span{
+  font-weight: normal;
+  font-size: 0.8em;
+}
+h6{
+  font-size: 0.7em;
+  font-weight: 100;
+}
+.rating{
+  display: flex;
+  flex-wrap: wrap;
+}
+.et{
+  width: 75px;
+  height: 16px;
+  padding-top: 5px;
+}
+.comment{
+  font-size: 0.6em !important;
+}
+
+#bas{
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box{
+  border: solid 1px #dbdbdb;
+  width: 240px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.box img{
+    width: 25px;
+    height: 20px;
+}
+.fr{
+  font-size: 1.2em;
+  font-weight: 100;
+}
+.esp{
+  margin-top: 10px;
+}
+
+.txtfooter{
+  color: #544850;
+  font-size: 1em;
+  margin-top:0;
+}
+#airbnb ul{
+  list-style-type: none;
+  margin-left:0;
+  padding-left:0;
+}
+#airbnb li{
+  margin-bottom:15px;/* à adapter */
+}
+.footerli{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: #919191;
+}
+footer{
+  width: 100%;
+  border-top: solid 2px #e4e4e4;
+  margin-top: 50px;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ulfooter{
+  list-style-type: none;
+  margin-left:0;
+  padding-left:0;
+  display: inline;
+}
+.gauche{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgfooter{
+  width: 22px;
+  height: 31px;
+}
+.droite li{
+  display:inline;
+  margin-right: 15px;
+}
+.fin{
+  padding: 10px 0 0 7px;
+}
